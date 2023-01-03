@@ -28,4 +28,28 @@ public class Product {
         this.price = price;
         this.rating = rating;
     }
+
+    /**
+     * Get a name for this product
+     * @return the product's name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Get a price for this product
+     * @return the product's price
+     */
+    public double getPrice() {
+        return price;
+    }
+
+    /**
+     * Get a rating for this product
+     * @return the product's rating
+     */
+    public int getRating() {
+        return rating;
+    }
 }
